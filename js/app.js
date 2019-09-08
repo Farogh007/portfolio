@@ -75,7 +75,7 @@
         var $filter = $('#filter');
         // Initialize isotope 
         $container.isotope({
-            filter: '*',
+            filter: '.3D',
             layoutMode: 'masonry',
             animationOptions: {
                 duration: 750,
