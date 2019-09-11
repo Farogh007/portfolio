@@ -413,6 +413,7 @@ a {
     position: relative;
     background-position: center center;
     height: 100vh;
+    z-index: 0;
 }
 
 .home-center {
