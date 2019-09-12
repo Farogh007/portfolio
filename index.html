@@ -979,7 +979,6 @@
                     <script>
                         function alertUser(response){
                             alert("Your Response has been recorded successfully");
-                            document.getElementById("myForm").reset();
                         }
 
                         function clickHandle(e){
@@ -999,6 +998,8 @@
                                 method : "post",
                                 body : JSON.stringify(jsonToSendToServer)
                             }).then(alertUser)
+
+                            document.getElementById("myForm").reset();
                         }
                         document.getElementById('btn').addEventListener('click', clickHandle);
                     </script
