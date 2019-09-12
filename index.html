@@ -941,7 +941,7 @@
                 </div>
 
                 <div class="custom-form mt-4">
-                    <form method="post">
+                    <form id="myForm" method="post">
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -979,6 +979,7 @@
                     <script>
                         function alertUser(response){
                             alert("Your Response has been recorded successfully");
+                            document.getElementById("myForm").reset();
                         }
 
                         function clickHandle(e){
