@@ -54,7 +54,10 @@ a {
 }
 
 .btn {
+    position: relative;
+    z-index: 24;
     padding: 15px 45px;
+
 }
 
 .btn-sm {
@@ -444,9 +447,14 @@ a {
 }
 
 .social-icons li a {
+    position: relative;
     font-size: 18px;
     color: #ffffff;
     padding-right: 20px;
+    z-index: 24;
+}
+.social-icons li a:hover{
+  cursor: pointer;
 }
 
 
