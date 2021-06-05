@@ -709,7 +709,7 @@ a {
 
 .container-filter li a.active {
     color: #ffffff !important;  
-    text-decoration: line-through !important;
+    text-decoration: none !important;
 }
 
 .gallary-box {
